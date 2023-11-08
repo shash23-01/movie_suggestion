@@ -21,6 +21,17 @@ const movieData = [
         Rating: 3.8,
         TrailerLink: "https://youtu.be/AjAe_Q1WZ_8?si=URdiqVqyaJljUMbB"
     },
+    {
+      MoviePosterLink: "jawan.jpg",
+      FilmName: "Jawan(2023)",
+
+      Summary: "A man is driven by a personal vendetta to rectify the wrongs in society, while keeping a promise made years ago. He comes up against a monstrous outlaw with no fear, who has caused extreme suffering to many.",
+
+Genre: "Action, Drama",
+Rating: "8.0/10",
+
+TrailerLink: "https://www.youtube.com/watch?v=fPX0C-g5xpU"
+    }
     // Add more movie data entries as needed
 ];
 
