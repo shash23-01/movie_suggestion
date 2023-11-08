@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+    <title>Random Movie Suggestion</title>
+</head>
+<body>
+    <div class="container">
+        <div class="poster">
+            <img id="moviePoster" src="" alt="Movie Poster">
+        </div>
+        <div class="content">
+            <div class="title">
+                <h1 id="movieTitle">Movie Title</h1>
+            </div>
+            <div class="summary">
+                <p id="movieSummary">Summary of the movie goes here.</p>
+            </div>
+            <div class="details">
+                <p id="movieGenre">Genre: Action</p>
+                <p id="movieRating">Rating: 8.5</p>
+            </div>
+            <div class="trailer">
+                <a id="trailerLink" href="#" target="_blank">Watch Trailer</a>
+            </div>
+            <div class="filter">
+                <select id="genreFilter">
+                    <option value="All">All Genres</option>
+                    <option value="Action">Comedy</option>
+                    <option value="Drama">Drama</option>
+                    <!-- Add more genre options here -->
+                </select>
+            </div>
+            <div class="buttons">
+                <button id="prevButton" onclick="getPreviousMovie()">Previous</button>
+                <button id="nextButton" onclick="getNextMovie()">Next</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

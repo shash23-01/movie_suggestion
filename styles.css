@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.poster img {
+    max-width: 100%;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.summary {
+    margin: 10px 0;
+}
+
+.details {
+    margin: 10px 0;
+}
+
+.trailer a {
+    display: inline-block;
+    margin: 10px 0;
+    background-color: #FF4500;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.filter select {
+    margin: 10px 0;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    background-color: #FF4500;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
